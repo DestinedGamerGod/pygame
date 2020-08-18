@@ -40,7 +40,7 @@ elif 'DISPLAY' in os.environ and 'SDL_VIDEO_X11_WMCLASS' not in os.environ:
 
 
 class MissingModule:
-    _NOT_IMPLEMENTED_ = True
+    _NOT_IMPLEMENTED_ = False
 
     def __init__(self, name, urgent=0):
         self.name = name
